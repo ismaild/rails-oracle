@@ -5,9 +5,9 @@
 #   gem 'sqlite3'
 development:
   adapter: oracle_enhanced
-  database: 127.0.0.1/dev
-  username: user
-  password: pass
+  database: 127.0.0.1/xe
+  username: system
+  password: manager
   pool: 5
   timeout: 5000
 
